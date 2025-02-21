@@ -60,7 +60,7 @@ const GetStarted = () => {
       <aside className="w-64 bg-white dark:bg-gray-800 shadow-lg">
         <div className="flex flex-col h-full">
           <div className="p-4 border-b dark:border-gray-700">
-            <h1 className="text-xl font-bold">Lamar Davis</h1>
+            <h1 className="text-xl font-bold">Team Creed</h1>
           </div>
           <div className="flex-1 overflow-y-auto p-4 space-y-4">
             <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center transition duration-300 ease-in-out">
