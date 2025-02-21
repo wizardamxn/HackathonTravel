@@ -7,7 +7,7 @@ import { useState } from "react"
 import { PlusCircle, Home, Bookmark, Send } from "lucide-react"
 
 
-const API_KEY =  "AIzaSyDrpj-P1bYeeY7e9qyp-P1mvvd40DvbqTk";
+const API_KEY =  "AIzaSyD8kOHXbdvI2EPkVFPfIKD9IxYXcAjz8r";
 const API = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 const GetStarted = () => {
