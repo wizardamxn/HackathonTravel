@@ -26,7 +26,7 @@ const GetStarted = () => {
         body: JSON.stringify({
           contents: [{
             parts: [{
-              text: `${inputText}, I want the Distance between the places I specify. The travelling time and vehicular transport all should be mentioned in the output also. AND The answer should be of minimum words no long paragraphs just straight to the point. AND If the user types other non-sense than that of mentioned previously just say "Places mentioned are not in the data". AND Only output the data in points not in paras or lines. AND for the time taken to reach specify each and every Transportation mode and their time taken respectively. AND the price will be also like the latter.`
+              text: `${inputText}, I want the Distance between the places I specify. The travelling time and vehicular transport all should be mentioned in the output also. AND The answer should be of minimum words no long paragraphs just straight to the point. AND If the user types other non-sense than that of mentioned previously just say "Places mentioned are not in the data". AND Only output the data in points not in paras or lines. AND for the time taken to reach specify each and every Transportation mode and their time taken respectively. AND the price will be also like the latter. ALso IF THE USER ASKS ABOUT A SPECIFIC PLACE JUST TELL THEM ABOUT THE PLACE.`
             }]
           }],
           generationConfig: {
